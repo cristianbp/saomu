@@ -1,0 +1,146 @@
+/* Estilo general de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para la sección principal del chat */
+#mainHome {
+    display: flex;
+    height: 100vh;
+}
+
+/* Estilo para la sección de información del usuario */
+#userInfo {
+    width: 20%;
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo para el botón de cerrar sesión */
+#userInfo a {
+    color: #333;
+    text-decoration: none;
+    margin-top: 10px;
+    display: block;
+}
+
+/* Estilo para el botón de modo oscuro */
+#darkModeBtn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Estilo para la sección de usuarios */
+#userList {
+    width: 20%;
+    background-color: #f1f1f1;
+    padding: 20px;
+    overflow-y: scroll;
+}
+
+/* Estilo para los enlaces de usuarios */
+#userList a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Estilo para la sección de mensajes */
+#msgScreen {
+    width: 60%;
+    background-color: #f1f1f1;
+    padding: 20px;
+    overflow-y: scroll;
+}
+
+/* Estilo para la tabla de mensajes */
+#msgScreen table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Estilo para las celdas de la tabla */
+#msgScreen td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Estilo para la sección de escritura de mensajes */
+#msgBox {
+    width: 60%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+/* Estilo para el área de escritura de mensajes */
+#msgBox input[name="msgArea"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+/* Estilo para el botón de enviar mensajes */
+#msgBox button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Estilo para el modo oscuro */
+.dark-mode {
+    background-color: #333333;
+    color: white;
+}
+
+.dark-mode #
+mainHome {
+    background-color: #333333;
+    color: white;
+    }
+    
+    .dark-mode #userInfo {
+    background-color: #333;
+    color: white;
+    }
+    
+    .dark-mode #userList {
+    background-color: #333;
+    color: white;
+    }
+    
+    .dark-mode #msgScreen {
+    background-color: #333;
+    color: white;
+    }
+    
+    .dark-mode #msgBox {
+    background-color: #333;
+    color: white;
+    }
+    
+    .dark-mode #msgBox input[name="msgArea"] {
+    background-color: #444;
+    color: white;
+    border-bottom-color: white;
+    }
+    
+    .dark-mode #msgScreen table {
+    border-color: white;
+    }
+    
+    .dark-mode #msgScreen td {
+    border-color: white;
+    }
